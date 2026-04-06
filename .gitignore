@@ -1,0 +1,23 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# CoreML model (too large for Git — see README)
+*.mlpackage
+*.mlmodel
+*.mlmodelc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+Models/
+.claude/
+
+# macOS
+.DS_Store
+
+# SPM
+.build/
